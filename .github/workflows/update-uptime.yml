@@ -34,13 +34,21 @@ jobs:
               today = date.today()
               uptime_years = today.year - y - ((today.month, today.day) < (m, d))
 
-              with open('README.md', 'r', encoding='utf-8') as f:
-                  content = f.read()
+              # Cập nhật terminal.svg
+              if os.path.exists('terminal.svg'):
+                  with open('terminal.svg', 'r', encoding='utf-8') as f:
+                      svg = f.read()
+                  new_svg = re.sub(r'(Uptime:[^>]*>)\s*\d+\s*years', f'\\g<1>{uptime_years} years', svg)
+                  with open('terminal.svg', 'w', encoding='utf-8') as f:
+                      f.write(new_svg)
 
-              new_content = re.sub(r'Uptime:\s*\d+\s*years', f'Uptime: {uptime_years} years', content)
-
-              with open('README.md', 'w', encoding='utf-8') as f:
-                  f.write(new_content)
+              # Cập nhật README.md nếu có
+              if os.path.exists('README.md'):
+                  with open('README.md', 'r', encoding='utf-8') as f:
+                      md = f.read()
+                  new_md = re.sub(r'Uptime:\s*\d+\s*years', f'Uptime: {uptime_years} years', md)
+                  with open('README.md', 'w', encoding='utf-8') as f:
+                      f.write(new_md)
           except Exception as e:
               print(f'Error calculating uptime: {e}')
               exit(1)
@@ -50,9 +58,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md terminal.svg
           if ! git diff --staged --quiet; then
-            git commit -m "chore(profile): auto-update system uptime"
+            git commit -m "chore(profile): auto-update system uptime in terminal.svg"
             git push
           else
             echo "Uptime is already up to date. No changes to commit."
