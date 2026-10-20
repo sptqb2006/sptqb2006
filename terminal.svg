@@ -36,7 +36,7 @@
   <circle cx="20" cy="18.5" r="5.5" fill="#ef4444" />
   <circle cx="38" cy="18.5" r="5.5" fill="#f59e0b" />
   <circle cx="56" cy="18.5" r="5.5" fill="#10b981" />
-  <text x="430" y="22.5" class="title-text" text-anchor="middle">qterminal - hackertit@kali: ~ (zsh)</text>
+  <text x="430" y="22.5" class="title-text" text-anchor="middle">superterm - hackertit@soc: ~ (zsh)</text>
 
   <!-- [HEADER] ASCII ART & SYSTEM INFO (0.2s - 0.8s) -->
   <clipPath id="clip_hdr">
@@ -63,7 +63,7 @@
   <g class="term-text">
     <text x="25" y="235">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.3s" fill="freeze" />
-      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">kali</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
+      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">soc</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
     </text>
     <text x="25" y="255">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.5s" fill="freeze" />
@@ -99,7 +99,7 @@
   <g class="term-text">
     <text x="25" y="385">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4.5s" fill="freeze" />
-      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">kali</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
+      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">soc</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
     </text>
     <text x="25" y="405">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4.7s" fill="freeze" />
@@ -134,7 +134,7 @@
   <g class="term-text">
     <text x="25" y="520">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="8.2s" fill="freeze" />
-      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">kali</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
+      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">soc</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
     </text>
     <text x="25" y="540">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="8.4s" fill="freeze" />
@@ -169,7 +169,7 @@
   <g class="term-text">
     <text x="25" y="655">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="12.0s" fill="freeze" />
-      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">kali</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
+      <tspan class="k-bracket">┌──(</tspan><tspan class="k-user">hackertit</tspan><tspan class="k-sigil">㉿</tspan><tspan class="k-host">soc</tspan><tspan class="k-bracket">)-[</tspan><tspan class="k-path">~</tspan><tspan class="k-bracket">]</tspan>
     </text>
     <text x="25" y="675">
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="12.2s" fill="freeze" />
